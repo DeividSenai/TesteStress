@@ -16,21 +16,21 @@ Este projeto tem como objetivo avaliar o desempenho da API REST implementada par
 
 ### Tempo de Resposta
 
-- **Tempo de Resposta Médio**: 138 ms
-- **Tempo de Resposta Mínimo**: 11 ms
-- **Tempo de Resposta Máximo**: 918 ms
-- **Throughput**: 11.2 requisições/segundo
+- **Tempo de Resposta Médio**: 3207 ms
+- **Tempo de Resposta Mínimo**: 170 ms
+- **Tempo de Resposta Máximo**: 77730 ms
+- **Throughput**: 58.1 requisições/segundo
 
 ![Summary Report](images/Summary%20Report.png)
 
 ### Erro Percentual
 
-- **Error %**: 0.01%  
+- **Error %**: 0.08%  
 No final das requisições, o IP foi bloqueado para fazer requisições.
 
 ### Pico de Conexões Ativas
 
-O gráfico a seguir mostra que o número de **Active Threads** (conexões ativas) atingiu entre 45 e 50 durante o teste. Esse pico ocorreu entre **00:13:25** e **00:14:55**, indicando um período em que o servidor estava sob carga máxima.
+O gráfico a seguir mostra que o número de **Active Threads** (conexões ativas) atingiu entre 450 e 500 durante o teste. Esse pico ocorreu entre **00:17:00** e **00:25:00**, indicando um período em que o servidor estava sob carga máxima.
 
 ![Active Threads Over Time](images/Active%20Threads%20Over%20Time.png)
 
