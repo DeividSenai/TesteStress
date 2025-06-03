@@ -40,7 +40,7 @@ O gráfico a seguir mostra que o número de **Active Threads** (conexões ativas
 
 A taxa de transferência foi medida durante o teste e pode ser visualizada nos relatórios a seguir.
 
-![Summary Report](images/Summary%Report.png)
+![Summary Report](images/Summary%20Report.png)
 
 ### Resultados em Tabela
 
